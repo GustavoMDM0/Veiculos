@@ -1,0 +1,55 @@
+#seprincipal{
+    background-image: url(../sitecarros/fotos/honda2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card {
+    min-height: 400px; /* Ajuste esse valor conforme necessário */
+}
+
+.navbar{
+    width: 100%;
+}
+
+.divlogin{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.divlogin i{
+    font-size: 30px;
+    color: #fff;
+    opacity:0.8;
+}
+
+.login{
+    width: 80px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.login:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    transition: 0.1s;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;  /* Distribui os elementos da navbar */
+    width: 100%;
+}
