@@ -7,12 +7,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/sitecarros/fotos/login.jpg);
+    background: url(../fotos/login.jpg);
     background-size: cover;
     background-position: center;
 }
